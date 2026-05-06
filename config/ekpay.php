@@ -12,7 +12,7 @@ return [
     'mer_reg_id' => env('AKPAY_MER_REG_ID'),
     'mer_pass_key' => env('AKPAY_MER_PASS_KEY'),
     'api_url' => env('AKPAY_API_URL', 'https://sandbox.ekpay.gov.bd/ekpaypg/v1'),
-    'ipn_url' => env('AKPAY_IPN_URL', url('/')),
+    'ipn_url' => env('AKPAY_IPN_URL', null),
     'whitelist_ip' => env('WHITE_LIST_IP', '1.1.1.1'),
 
     /*
