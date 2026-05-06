@@ -9,14 +9,30 @@
             "email": "nishad@example.com"
         }
     ],
+    "keywords": [
+        "laravel",
+        "ekpay",
+        "payment",
+        "gateway",
+        "bangladesh"
+    ],
     "require": {
         "php": "^8.2",
         "illuminate/support": "^11.0|^12.0",
         "guzzlehttp/guzzle": "^7.2"
     },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
     "autoload": {
         "psr-4": {
             "FreelancerNishad\\Ekpay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FreelancerNishad\\Ekpay\\Tests\\": "tests/"
         }
     },
     "extra": {

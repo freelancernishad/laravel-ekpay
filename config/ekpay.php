@@ -35,8 +35,8 @@ return [
     |
     */
     'models' => [
-        'payment' => \App\Models\Payment::class,
-        'payment_item' => \App\Models\PaymentItem::class,
+        'payment' => null, // Override this in your project (e.g., \App\Models\Payment::class)
+        'payment_item' => null, // Override this in your project (e.g., \App\Models\PaymentItem::class)
         'log' => \FreelancerNishad\Ekpay\Models\EkpayLog::class,
     ],
 ];
